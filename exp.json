@@ -1,17 +1,28 @@
 {
-  "name": "redux-barebones",
-  "description": "An empty new project",
-  "slug": "redux-barebones",
+  "name": "redux-calculator",
+  "description": "Redux Calculator",
+  "slug": "redux-calculator",
   "privacy": "public",
   "sdkVersion": "16.0.0",
   "version": "1.0.0",
   "orientation": "portrait",
-  "primaryColor": "#cccccc",
-  "icon": "./assets/icons/app.png",
-  "loading": {
-    "icon": "./assets/icons/loading.png",
-    "hideExponentText": false
+  "primaryColor": "#3A4767",
+  "icon": "http://i.imgur.com/OLTV2Dj.png",
+  "notification": {
+    "icon": "http://i.imgur.com/OLTV2Dj.png",
+    "color": "#000000",
+    "androidMode": "default",
+    "androidCollapsedTitle": "#{unread_notifications} new interactions"
   },
+  "loading": {
+    "icon": "https://s13.postimg.org/wflosfalj/logo.png",
+    "backgroundImage": "http://i.imgur.com/zsnPy5z.png",
+    "backgroundColor": "#FFF",
+    "hideExponentText": true
+  },
+  "appKey": "main",
+  "androidStatusBarColor": "#000000",
+  "androidShowExponentNotificationInShellApp": false,
   "packagerOpts": {
     "assetExts": ["ttf", "mp4"]
   },

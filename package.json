@@ -1,7 +1,7 @@
 {
-  "name": "redux-barebones",
+  "name": "redux-calculator",
   "version": "0.0.0",
-  "description": "Hello Expo!",
+  "description": "Redux Calculator",
   "author": null,
   "private": true,
   "main": "main.js",
