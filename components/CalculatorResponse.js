@@ -31,7 +31,7 @@ class CalculatorResponse extends React.Component {
           </TouchableOpacity>
 
           <Text style={styles.input}>
-            { first === '0' && !operator ? 'Enter your operation!' : input }
+            { first === '0' && !operator ? 'Enter your operation' : input }
           </Text>
         </View>
       </View>
