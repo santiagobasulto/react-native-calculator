@@ -1,12 +1,8 @@
 import React from 'react';
-import { View, StyleSheet, } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import CalculatorButton from './CalculatorButton';
 
 class CalculatorButtonsContainer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { handleButtonPress } = this.props;
 

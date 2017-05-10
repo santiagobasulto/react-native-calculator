@@ -1,15 +1,7 @@
 import React from 'react';
-import Expo, { LinearGradient } from 'expo';
-import {
-  View, Text, StyleSheet, StatusBar,
-  TouchableOpacity,
-} from 'react-native';
+import { Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 class CalculatorButton extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { operator, handleButtonPress } = this.props;
 
