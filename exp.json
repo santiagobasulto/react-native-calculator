@@ -1,7 +1,7 @@
 {
-  "name": "redux-calculator",
-  "description": "Redux Calculator",
-  "slug": "redux-calculator",
+  "name": "react-native-calculator",
+  "description": "react Native Calculator",
+  "slug": "react-native-calculator",
   "privacy": "public",
   "sdkVersion": "16.0.0",
   "version": "1.0.0",

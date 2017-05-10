@@ -1,15 +1,7 @@
 import React from 'react';
-import Expo, { LinearGradient } from 'expo';
-import {
-  View, Text, StyleSheet, StatusBar,
-  TouchableOpacity,
-} from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 class CalculatorResponse extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { first, second, operator, result, refresh } = this.props;
     const input = `${first} ${operator} ${second}`;
@@ -25,7 +17,7 @@ class CalculatorResponse extends React.Component {
         <View style={styles.inputContainer}>
           <TouchableOpacity onPress={refresh}>
             <Text style={styles.delete}>
-                {/* ⏎ */}
+              {/* ⏎ */}
                 AC
             </Text>
           </TouchableOpacity>
