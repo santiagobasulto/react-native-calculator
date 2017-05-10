@@ -3,8 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 class CalculatorResponse extends React.Component {
   render() {
-    const { first, second, operator, result, refresh } = this.props;
-    const input = `${first} ${operator} ${second}`;
+    const { result, refresh } = this.props;
 
     return (
       <View>
@@ -23,7 +22,7 @@ class CalculatorResponse extends React.Component {
           </TouchableOpacity>
 
           <Text style={styles.input}>
-            { first === '0' && !operator ? 'Enter your operation' : input }
+            Enter your operation
           </Text>
         </View>
       </View>

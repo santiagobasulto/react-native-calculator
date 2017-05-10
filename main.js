@@ -9,16 +9,8 @@ class App extends React.Component {
     super();
 
     this.state = {
-      first: '0',
-      second: '',
-      operator: '',
       result: 0,
-      isResult: false,
     };
-
-    this.refresh = this.refresh.bind(this);
-    this.handleButtonPress = this.handleButtonPress.bind(this);
-    this.getResult = this.getResult.bind(this);
   }
 
   getResult() {
@@ -39,7 +31,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { first, second, operator, result } = this.state;
+    const { result } = this.state;
 
     return (
       <LinearGradient
@@ -48,9 +40,6 @@ class App extends React.Component {
       >
 
         <CalculatorResponse
-          first={first}
-          second={second}
-          operator={operator}
           result={result}
           refresh={this.refresh}
         />
